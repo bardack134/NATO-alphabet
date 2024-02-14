@@ -4,7 +4,7 @@ import pandas
 nato_alphabet = pandas.read_csv("nato_phonetic_alphabet.csv")
 
 # Crea un diccionario a partir de los datos del CSV, asignando a cada letra su código fonético correspondiente
-data_dictionary = {value.letter: value.code for (index, value) in nato_alphabet.iterrows()}
+data_dictionary = {row.letter: row.code for (index, row) in nato_alphabet.iterrows()}
 
 
 # print(data_dictionary)
