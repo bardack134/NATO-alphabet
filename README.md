@@ -10,8 +10,7 @@ This Python script converts words into their NATO phonetic alphabet equivalent. 
 - [Results and Achievements](#results-and-achievements)
 
 ## Tools Used
-- Python
-- Pandas
+- Pandas = for reading and processing data from a CSV file
 
 ## Results and Achievements
 - Created a Python script to convert words into NATO phonetic alphabet equivalents.
